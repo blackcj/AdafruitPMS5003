@@ -10,7 +10,7 @@ This air quality sensor measures PM2.5 dust concentration. It can be used in com
 
 ## Hookup
 
-![Image of Photon](https://octodex.github.com/images/yaktocat.png)
+![Image of Photon](images/photon_wiring.jpg)
 
 - VCC: The PMS5003 sensor requires 5v to power the fan. Plug it into VIN on the Particle Photon to get the 5v.
 - TX: (transmit) on the PMS5003 should be connected to RX (receive) on the Photon
