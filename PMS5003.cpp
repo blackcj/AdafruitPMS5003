@@ -7,7 +7,7 @@
 // WIRING
 // VCC: The PMS5003 sensor requires 5v to power the fan. Plug it into VIN
 // on the Particle Photon to get the 5v.
-// TX: (trasmit) on the PMS5003 should be connected to RX (recieve) on the Photon
+// TX: (transmit) on the PMS5003 should be connected to RX (receive) on the Photon
 // GND: GND
 
 // Includes
