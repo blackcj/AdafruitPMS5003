@@ -1,8 +1,8 @@
 // This #include statement was automatically added by the Particle IDE.
-#include "PMS5003.h"
+#include "DustSensor.h"
 
 char resultstr[128]; // This is where we will put the data
-PMS5003 dustSensor;
+DustSensor dustSensor;
 
 void setup() {
     Particle.publish("log", "Air Quality Start");

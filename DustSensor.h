@@ -15,7 +15,7 @@ struct pms5003data {
   uint16_t checksum;
 };
 
-class PMS5003 {
+class DustSensor {
 
 public:
   DustSensor(void);

@@ -11,22 +11,22 @@
 // GND: GND
 
 // Includes
-#include "PMS5003.h"
+#include "DustSensor.h"
 
-PMS5003::PMS5003(void) {
+DustSensor::DustSensor(void) {
 
 }
 
-void PMS5003::begin() {
+void DustSensor::begin() {
   Serial1.begin(BAUD_RATE);
   Serial1.setTimeout(SERIAL_TIMEOUT);
 }
 
-pms5003data PMS5003::readData() {
+pms5003data DustSensor::readData() {
   return data;
 }
 
-boolean PMS5003::listen() {
+boolean DustSensor::listen() {
 
   // check if serial has data
   if (!Serial1.available()) {
